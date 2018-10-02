@@ -137,4 +137,11 @@
     border-radius: 0.25em;
 }
 
-
+.article-button a {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+}
