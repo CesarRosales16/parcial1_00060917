@@ -155,6 +155,51 @@
     background-size: cover;
     color: white;
 }
+.form,.contact-info {
+    padding: 2em;
+}
 
+.form * {
+    display: block;
+    padding-left: 0;
+}
+.form div input, .form div textarea {
+    width: 100%;
+    border-radius: 0.25em;
+    border: solid 0.2px;
+    padding: 0.75em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.form div label {
+    font-size: 0.75em;
+}
+
+.form-button {
+    background-color: rgb(255, 174, 0);
+    border-radius: 0.1em;
+    margin-top: 1em;
+}
+
+.form-button a {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+}
+
+.contact-info {
+    background-color: #0000003f;
+    border-radius: 0.75em;
+    margin: 1em;
+}
+
+.contact-info * {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    text-align: justify;
+}
 
 
