@@ -145,3 +145,16 @@
     color: white;
     padding: 1em;
 }
+
+.contact {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: url(img/contacus.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+
