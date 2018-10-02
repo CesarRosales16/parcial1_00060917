@@ -1,0 +1,52 @@
+:root {
+    font-size: calc(0.5em + 1vw);
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+.container {
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.navigator {
+    width: 100%;
+    height: 56px;
+}
+
+.navigator .links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    background-color: #000000;
+    position: relative;
+    height: 100%;
+}
+
+.link li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.links .logo {
+    height: 100px;
+    width: 100px;
+    background-color: #000000;/*aca sale background nada mas*/
+    position: absolute;
+    top: 4px;
+    padding: 0 5px 5px;
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.links .logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
