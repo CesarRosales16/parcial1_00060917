@@ -34,11 +34,14 @@
     color: #ffffff;
     text-decoration: none;
 }
+.links li a:hover {
+    border-bottom: solid 1px white;
+}
 
 .links .logo {
     height: 100px;
     width: 100px;
-    background-color: #000000;/*aca sale background nada mas*/
+    background-color: #000000;
     position: absolute;
     top: 4px;
     padding: 0 5px 5px;
@@ -137,6 +140,10 @@
     border-radius: 0.25em;
 }
 
+.article-button:hover {
+    background-color: white;
+}
+
 .article-button a {
     display: flex;
     align-content: center;
@@ -145,7 +152,9 @@
     color: white;
     padding: 1em;
 }
-
+.article-button a:hover {
+    color: orange;
+}
 .contact {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -179,6 +188,11 @@
     background-color: rgb(255, 174, 0);
     border-radius: 0.1em;
     margin-top: 1em;
+    
+}
+.form-button:hover {
+    background-color: rgba(255, 255, 255, 0.274);
+    opacity: 0.6;
 }
 
 .form-button a {
@@ -188,6 +202,9 @@
     text-decoration: none;
     color: white;
     padding: 1em;
+}
+.form-button a:hover {
+    color: white;
 }
 
 .contact-info {
